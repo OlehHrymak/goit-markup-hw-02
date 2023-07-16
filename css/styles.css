@@ -66,10 +66,10 @@ body {
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: var(--green-cl);
+  color: #404bbf;
 }
 .header-menu-link:is(:hover, :focus) {
-  color: var(--green-cl);
+  color: #404bbf;
 }
 .header-adress {
 }
