@@ -70,6 +70,23 @@ color: var(--green-cl);
 .header-menu-link:is(:hover, :focus) {
 color: var(--green-cl);    
 }
+.header-adress {
+}
+.header-address-list {
+    
+}
+.header-address-mail {
+color: var(--slate-cl);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.header-address-phone {
+
+}
+
+
 /*! -------------HERO--------------------------- */
 
 .hero {
@@ -144,6 +161,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 .team-list {
+
 }
 .team-item {
 }
@@ -168,6 +186,7 @@ letter-spacing: 0.02em;
 
 /*! -------------footer------------------------- */
 .footer {
+    background: var(--main-cl);
 }
 .footer-logo {
 color: var(--cloud-cl);
@@ -178,7 +197,6 @@ font-weight: 800;
 line-height: 21px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
-}
 }
 .footer-logo-accent {
 color: var(--iris-cl);
