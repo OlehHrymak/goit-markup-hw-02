@@ -76,7 +76,7 @@ text-transform: uppercase;
   color: #404bbf;
 }
 .header-adress {
-  font-style: normal 
+   
 }
 .header-address-list {
 }
@@ -84,10 +84,17 @@ text-transform: uppercase;
   color: var(--slate-cl);
   font-size: 16px;
   font-weight: 400;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .header-address-phone {
+  color: var(--slate-cl);
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /*! -------------HERO--------------------------- */
