@@ -73,14 +73,17 @@ text-transform: uppercase;
   letter-spacing: 0.02em;
 }
 
-.header-menu-link:is(:hover, :focus) {
-color: #404bbf;
+.header-menu-link:hover {
+color: var(--ocean-cl);
+}
+.header-menu-link:focus {
+  color: var(--ocean-cl);
 }
 .header-adress {
-   
+  font-style: normal; 
 }
 .header-address-list {
-font-style: normal;
+ 
 }
 .header-address-mail {
   color: var(--slate-cl);
