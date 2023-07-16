@@ -1,6 +1,8 @@
 :root {
   /* Fonts */
-  font-family: "Roboto", serif;
+  --primary-font: "Roboto", serif;
+  --secondary-font: "Raleway", sans-serif;
+
   /* Colors */
   --iris-cl: #4d5ae5;
   --ocean-cl: #404bbf;
@@ -17,8 +19,9 @@
 }
 
 body {
-  font-family: "Roboto", serif;
-  color: var(--main-font);
+  font-family: var(--primary-font);
+  color: var(--slate-cl);
+  background-color;: var (--white-cl)
 }
 
 .link {
@@ -45,7 +48,7 @@ body {
 /*! -------------HEADER--------------------------- */
 
 .header-logo {
-  font-family: Raleway;
+  font-family: var(--secondary-font)
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -85,7 +88,7 @@ body {
 /*! -------------HERO--------------------------- */
 
 .hero {
-  background: var(--navyblue, #2e2f42);
+  background: var(--main-cl);
 }
 
 .hero-title {
@@ -130,7 +133,7 @@ body {
 }
 .portfolio-title {
   text-align: center;
-  font-family: Roboto;
+  font-family: var(--secondary-font)
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -179,11 +182,11 @@ body {
 
 /*! -------------footer------------------------- */
 .footer {
-  background: var(--main-cl);
+  background-color: var(--main-cl);
 }
 .footer-logo {
   color: var(--cloud-cl);
-  font-family: Raleway;
+  font-family: var(--secondary-font);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
