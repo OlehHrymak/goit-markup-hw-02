@@ -103,7 +103,7 @@ color: var(--ocean-cl);
 /*! -------------HERO--------------------------- */
 
 .hero {
-  background: var(--main-cl);
+  background-color: var(--main-cl);
 }
 
 .hero-title {
@@ -115,13 +115,22 @@ color: var(--ocean-cl);
   letter-spacing: 0.02em;
 }
 .hero-btn {
+  background-color: var(--iris-cl);
   color: var(--white-cl);
-  font-family: inherit;
+  font-family: var(--primary-font);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer
 }
+
+.hero-btn:hover {
+  color: var(--ocean-cl);
+  }
+  
+.hero-btn:focus {
+    color: var(--ocean-cl);
 
 /*! -------------advantages--------------------------- */
 
