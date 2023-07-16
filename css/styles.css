@@ -1,113 +1,108 @@
-
 :root {
-/* Fonts */
-font-family: "Roboto", serif;
+  /* Fonts */
+  font-family: "Roboto", serif;
   /* Colors */
-	--iris-cl: #4d5ae5;
-	--ocean-cl: #404bbf;
-	--main-cl: #2e2f42;
-	--green-cl: #31d0aa;
-	--slate-cl: #434455;
-	--light-slate-cl: #8e8f99;
-	--cornflower-cl: #e7e9fc;
-	--cloud-cl: #f4f4fd;
-	--navy-blue-modal-cl: #2e2f42;
-	--grey-cl: #2e2f42;
-	--white-cl: #ffffff;
-	--dairy-cl: #fcfcfc;
+  --iris-cl: #4d5ae5;
+  --ocean-cl: #404bbf;
+  --main-cl: #2e2f42;
+  --green-cl: #31d0aa;
+  --slate-cl: #434455;
+  --light-slate-cl: #8e8f99;
+  --cornflower-cl: #e7e9fc;
+  --cloud-cl: #f4f4fd;
+  --navy-blue-modal-cl: #2e2f42;
+  --grey-cl: #2e2f42;
+  --white-cl: #ffffff;
+  --dairy-cl: #fcfcfc;
 }
 
-
 body {
-font-family: "Roboto", serif;
-color: var(--main-font);
+  font-family: "Roboto", serif;
+  color: var(--main-font);
 }
 
 .link {
-text-decoration: none;
-color: currentColor;
+  text-decoration: none;
+  color: currentColor;
 }
 .list {
-    list-style-type: none;
+  list-style-type: none;
 }
 .visually-hidden {
-position: absolute;
-width: 1px;
-height: 1px;
-margin: -1px;
-border: 0;
-padding: 0;
-        
-white-space: nowrap;
-clip-path: inset(100%);
-clip: rect(0 0 0 0);
-overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /*! -------------HEADER--------------------------- */
 
 .header-logo {
-font-family: Raleway;
-font-size: 18px;
-font-weight: 800;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .header-logo-accent {
-color: var(--iris-cl);
+  color: var(--iris-cl);
 }
 .header-menu-link {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.2em;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.2em;
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
-color: var(--green-cl);
+  color: var(--green-cl);
 }
 .header-menu-link:is(:hover, :focus) {
-color: var(--green-cl);    
+  color: var(--green-cl);
 }
 .header-adress {
 }
 .header-address-list {
-    
 }
 .header-address-mail {
-color: var(--slate-cl);
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
+  color: var(--slate-cl);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .header-address-phone {
-
 }
-
 
 /*! -------------HERO--------------------------- */
 
 .hero {
-background: var(--navyblue, #2E2F42);
+  background: var(--navyblue, #2e2f42);
 }
 
 .hero-title {
-color: var(--white-cl);
-text-align: center;
-font-size: 56px;
-font-weight: 700;
-line-height: 1.07; 
-letter-spacing: 0.02em;   
+  color: var(--white-cl);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 .hero-btn {
-color: var(--white-cl);
-font-family: inherit;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.04em;
+  color: var(--white-cl);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 /*! -------------advantages--------------------------- */
@@ -117,30 +112,30 @@ letter-spacing: 0.04em;
 .advantages-item {
 }
 .advantages-subtitle {
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .advantages-item-text {
-color: var(--slate-cl);
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5; 
-letter-spacing: 0.02em;
+  color: var(--slate-cl);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /*! -------------portfolio------------------------- */
 
 .portfolio {
 }
 .portfolio-title {
-text-align: center;
-font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.11; 
-letter-spacing: 0.02em;
-text-transform: capitalize;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .portfolio-list {
 }
@@ -153,58 +148,56 @@ text-transform: capitalize;
 .team {
 }
 .team-title {
-text-align: center;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.11; 
-letter-spacing: 0.02em;
-text-transform: capitalize;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .team-list {
-
 }
 .team-item {
 }
 .team-img {
 }
 .team-subtitle {
-text-align: center;
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .team-item-text {
-color: var(--light-slate-cl);
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5; 
-letter-spacing: 0.02em;
+  color: var(--light-slate-cl);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-
 
 /*! -------------footer------------------------- */
 .footer {
-    background: var(--main-cl);
+  background: var(--main-cl);
 }
 .footer-logo {
-color: var(--cloud-cl);
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: 21px; /* 116.667% */
-letter-spacing: 0.54px;
-text-transform: uppercase;
+  color: var(--cloud-cl);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 .footer-logo-accent {
-color: var(--iris-cl);
+  color: var(--iris-cl);
 }
 .footer-text {
-color: var(--cloud-cl);
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
+  color: var(--cloud-cl);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
