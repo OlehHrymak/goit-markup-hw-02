@@ -48,16 +48,23 @@ body {
 /*! -------------HEADER--------------------------- */
 
 .header-logo {
-  font-family: var(--secondary-font)
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+color: var(--iris-cl);
+font-family: var(--secondary-font);
+font-size: 18px;
+font-weight: 800;
+line-height: 1.17px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
 
 .header-logo-accent {
-  color: var(--iris-cl);
+color: var(--main-cl);
+font-family: var(--secondary-font);
+font-size: 18px;
+font-weight: 800;
+line-height: 1.17px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
 .header-menu-link {
   font-size: 16px;
