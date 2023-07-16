@@ -20,7 +20,7 @@
 
 body {
   font-family: var(--primary-font);
-  color: var(--slate-cl);
+  color: var(--main-cl);
   background-color;: var (--white-cl)
 }
 
@@ -52,33 +52,31 @@ color: var(--iris-cl);
 font-family: var(--secondary-font);
 font-size: 18px;
 font-weight: 800;
-line-height: 1.17px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
 .header-logo-accent {
-color: var(--main-cl);
 font-family: var(--secondary-font);
 font-size: 18px;
 font-weight: 800;
-line-height: 1.17px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .header-menu-link {
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
 }
-.header-menu-link:hover,
-.header-menu-link:focus {
-  color: #404bbf;
-}
+
 .header-menu-link:is(:hover, :focus) {
   color: #404bbf;
 }
 .header-adress {
+  font-style: normal 
 }
 .header-address-list {
 }
