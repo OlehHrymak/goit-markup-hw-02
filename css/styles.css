@@ -203,17 +203,17 @@ color: var(--ocean-cl);
   background-color: var(--navy-blue-modal-cl);
 }
 .footer-logo {
-  color: var(--cloud-cl);
+  color: var(--iris-cl);
   font-family: var(--secondary-font);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.17; 
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 .footer-logo-accent {
-  color: var(--iris-cl);
+  color: var(--cloud-cl);
 }
 .footer-text {
   color: var(--cloud-cl);
