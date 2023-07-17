@@ -224,29 +224,85 @@ color: var(--ocean-cl);
 }
 
 /*! -------------portfolio------------------------- */
+
 .portfolio {
 }
 .visually-hidden {
 }
 .portfolio-list {
 }
-.list {
+.portfolio-list-style {
 }
-.portfolio-list-style-one {
+.portfolio-btn-one {
+background-color: var(--ocean-cl);
+color: var(--white-cl);
+text-align: center;
+font-family: var(--primary-font);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
 }
-.portfolio-btn {
+.portfolio-btn-two {
+background: var(--cloud-cl);
+color: var(--iris-cl);
+text-align: center;
+font-family: var(--primary-font);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
 }
-.portfolio-list-style-two {
+.portfolio-btn-three {
+background-color: var(--cloud-cl);
+color: var(--iris-cl);
+text-align: center;
+font-family: var(--primary-font);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
 }
-.portfolio-list-style-three {
+.portfolio-btn-four {
+background: var(--cloud-cl);
+color: var(--iris-cl);
+text-align: center;
+font-family: var(--primary-font);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
 }
-.portfolio-list-style-four {
+.portfolio-btn-five {
+background-color: var(--cloud-cl);
+color: var(--iris-cl);
+text-align: center;
+font-family: var(--primary-font);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
 }
 .portfolio-item {
 }
 .portfolio-img {
 }
 .portfolio-subtitle {
+background-color: var(--white-cl);
+color: var(--grey-cl);
+font-family: var(--primary-font);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
 }
 .portfolio-item-text {
+background-color: var(--white-cl); 
+color: var(--main-cl);
+font-size: 16px;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+
+
+
 }
