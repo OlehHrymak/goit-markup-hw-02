@@ -63,7 +63,7 @@ text-transform: uppercase;
 .header-menu-link:hover {
   color: var(--ocean-cl);
   }
-.header-address-link:focus {
+.header-menu-link:focus {
     color: var(--ocean-cl);
   }
 
@@ -127,6 +127,7 @@ color: var(--ocean-cl);
 .advantages-item {
 }
 .advantages-subtitle {
+  color: var(--navy-blue-modal-cl);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
