@@ -244,11 +244,11 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
 }
-.header-menu-link:hover {
+.portfolio-btn-one:hover {
   color: var(--ocean-cl);
   background-color: var(--ocean-cl);
   }
-.header-menu-link:focus {
+.portfolio-btn-one:focus {
     color: var(--white-cl);
     background-color: var(--ocean-cl);
   }
