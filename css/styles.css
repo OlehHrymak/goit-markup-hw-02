@@ -145,8 +145,9 @@ color: var(--ocean-cl);
 .portfolio {
 }
 .portfolio-title {
+  color: var(--navy-blue-modal-cl);
   text-align: center;
-  font-family: var(--secondary-font)
+  font-family: var(--secondary-font);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -162,8 +163,10 @@ color: var(--ocean-cl);
 
 /*! -------------team------------------------- */
 .team {
+  background-color: var(--cloud-cl);
 }
 .team-title {
+  color: var(--navy-blue-modal-cl);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -174,10 +177,12 @@ color: var(--ocean-cl);
 .team-list {
 }
 .team-item {
+  background-color: var(--white-cl);
 }
 .team-img {
 }
 .team-subtitle {
+  color: var(--navy-blue-modal-cl);
   text-align: center;
   font-size: 20px;
   font-weight: 500;
@@ -185,7 +190,7 @@ color: var(--ocean-cl);
   letter-spacing: 0.02em;
 }
 .team-item-text {
-  color: var(--light-slate-cl);
+  color: var(--main-cl);
   text-align: center;
   font-size: 16px;
   font-weight: 400;
@@ -195,7 +200,7 @@ color: var(--ocean-cl);
 
 /*! -------------footer------------------------- */
 .footer {
-  background-color: var(--main-cl);
+  background-color: var(--navy-blue-modal-cl);
 }
 .footer-logo {
   color: var(--cloud-cl);
