@@ -245,23 +245,14 @@ letter-spacing: 0.04em;
 cursor: pointer;
 }
 .portfolio-btn-one:hover {
-  color: var(--ocean-cl);
+  color: var(--white-cl);
   background-color: var(--ocean-cl);
   }
 .portfolio-btn-one:focus {
     color: var(--white-cl);
     background-color: var(--ocean-cl);
   }
-.portfolio-btn-two {
-background: var(--cloud-cl);
-color: var(--iris-cl);
-text-align: center;
-font-family: var(--primary-font);
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.04em;
-}
+
 .portfolio-btn-three {
 background-color: var(--cloud-cl);
 color: var(--iris-cl);
