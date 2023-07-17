@@ -90,7 +90,7 @@ color: var(--ocean-cl);
 /*! -------------HERO--------------------------- */
 
 .hero {
-  background-color: var(--main-cl);
+  background-color: var(--navy-blue-modal-cl);
 }
 
 .hero-title {
